@@ -9,6 +9,7 @@ COPY . /emqx_rel
 RUN apk add git \
     curl \
     gcc \
+    g++ \
     make \
     perl \
     ncurses-dev \
